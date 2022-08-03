@@ -1,0 +1,418 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+font-family: 'Work Sans', Regular;
+}
+/* ##############------typography-------######## */
+
+
+
+
+
+
+/* ############--------styling----------########## */
+
+.banner{
+background: url(./dish.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+min-height:620px ;
+position: relative;
+z-index:1;
+
+}
+.overlays{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #000000;
+opacity: .5;
+z-index: -1;
+
+}
+.content-1{
+
+padding: 184px 0px 130px 0px;
+}
+.txt-1{
+margin-bottom: 3px;
+font-weight: 500;
+font-size: 32px;
+
+
+}   
+.txt-2 h1{
+margin-bottom: 35px;
+font-style: italic;
+font-family: ;
+font-weight: 400;
+
+}
+.cta-white a{
+text-decoration: none;
+background-color: #FFFFFF;
+color: #C15D26;
+font-size: 16px;
+padding: 11.5px 51.44px;
+border-radius: 5px;
+font-weight: 600;
+}
+.txt-1 h4{
+font-size: 32px;
+color: #FFFFFF;
+}
+.txt-2 h1{
+font-size: 120px;
+color: #62B2C6;
+}
+
+/* ######-----for tablet-----###### */
+@media(min-width:768px) and (max-width:1024px){
+.txt-2 h1{
+font-size: 40px;
+font-weight: 700;
+}
+.banner{
+min-height: 300px;
+}
+.content-1{
+padding: 328px 0px 250px 47px;
+}
+.cta-white a{
+font-size: 28px;
+padding: 19.5px 30.44px;
+font-weight: 500;
+}
+}
+
+/* #############-------- for mobile-------######## */
+
+@media(max-width:767px){
+.content-1{
+padding: 219px 0px 170px 8px;
+}
+.txt-1 h4{
+font-size: 32px;
+}
+.txt-2 h1{
+font-size: 89px;
+margin-bottom: 35px;
+font-weight: 800;
+}
+.cta-white a{
+font-size: 22px;
+padding: 12.5px 15.44px;
+font-weight: 500;
+}
+.banner{
+height: 100%;
+min-height: 590px;
+}
+
+}
+
+/* ###########------>section 2 styling<--------###### */
+/* #### media for section 2 ######### */
+
+
+.container-1{
+background-color: #F1F2F2;
+padding: 37px 0 50px 0;
+}
+.content-wrapper{
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+flex-basis: 100%;
+}
+.heading h2{
+color: #231f20;
+font-size: 42px;
+text-align: center;
+}
+.parent-flex{
+display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+justify-content: center;
+margin-top: 37px;
+}
+.flex-left{
+flex-basis: 25.5%;
+margin-right: 100px;
+line-height: 37px;
+font-size: 16px;
+}
+.flex-right{
+flex-basis: 30%;
+line-height: 37px;
+font-size: 16px;
+}
+.flex-btn{
+font-size: 16px;
+color: #231F20;
+font-weight: bold;
+position: relative;
+text-decoration: none;
+border-bottom: 3px solid #C15D26;
+display: inline-block;
+}
+
+.main_container-2{
+display: flex;
+justify-content: space-between;
+padding: 16px 0px 0px 0px;
+}
+.left-part{
+background-color: #1F2D60;
+flex-basis: 40%;
+margin-right: 18px;
+
+}
+.right-part{
+background-color:#7A0306;
+flex-basis: 70%;
+padding-top: 22px;
+
+}
+.left-part-content{
+text-align: center;
+padding: 38px 0px 116px 0px;
+}
+.right-part-content{
+text-align: center;
+}
+.left-part-content h3{
+font-size: 53px;
+font-weight: 400;
+line-height: 1.45;
+margin-bottom: 22px;
+font-family: 'bello-pro';
+color: #F1F2F2;
+}
+.left-part-content p{
+font-size: 18px;
+font-weight: 400;
+line-height:0.39;
+font-family:Arial, Helvetica, sans-serif;
+color: #F1F2F2 ;
+}
+.left-part-content a{
+display: inline-block;
+margin-top: 30px;
+font-size: 16px;
+font-weight: 700;
+line-height: .70;
+text-decoration: none;
+
+}
+.left-underline p{
+border-bottom: 4px solid#C15D26;
+padding: 15px 0px;
+}
+.right-part-content h3{
+font-size: 52px;
+margin-bottom: 20px;
+color: #F1F2F2;
+font-family: 'bello-pro';
+
+} 
+.right-part-content p{
+font-size: 18px;
+margin-bottom: 50px;
+line-height: 0.399;
+color: #F1F2F2;
+} 
+.right-part-content a{
+text-decoration: none;
+background-color: #FFFFFF;
+color: #C15D26;
+font-size: 16px;
+padding: 11.5px 51.44px;
+border-radius: 5px;
+font-weight: 600;
+}
+
+/* ##########section 4 ######## */
+
+.container-2{
+max-width: 834px;
+margin: 0 auto;
+text-align: center;
+padding-top: 140px;
+}
+.pro-max h4{
+color: #7A0306;
+font-family: 'Bello-pro';
+font-size: 48px;
+text-align: center;
+}
+.pro-max h2{
+color: #231F20;
+font-size: 42px;
+text-align: center;
+}
+.center{
+padding-top: 20px;
+
+}
+.center p{
+color: #231F20;
+font-size: 18px;
+line-height: 30px;
+font-weight: 400px;
+}
+.flex-2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+}
+.bbq{
+flex-basis: 50%;
+}
+.bbq img{
+height: 100%;
+width: 100%;
+}
+.bbq p{
+font-size: 15px;
+font-weight: bold;
+margin-top: 20px;
+line-height: 28px;
+}
+.pepsi{
+flex-basis: 50%;
+}
+.pepsi img{
+height: 100%;
+width: 100%;
+}
+.pepsi p{
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 20px;
+line-height: 28px;
+}
+@media(min-width:768px) and (max-width:1024px){
+.flex-left{
+    flex-basis: 45%;
+    margin-right:10%;
+}
+.flex-right{
+    flex-basis: 45%;
+}
+}
+
+/* #####-----> module5 styling<-------##### */
+
+.flex-3-left{
+    background: url(./milk.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   max-width: 386.34px;
+min-height: 388.94px;
+}
+
+.flex-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6%;
+}
+.flex-3-left{
+    flex-basis: 45%;
+    margin-right: 12%;
+    margin-left: 9%;
+}
+.flex-3-right{
+    flex-basis: 45%;
+}
+.napkin{
+    max-width: 386.34px;
+    margin: 0 auto;
+    text-align: center;
+   
+   }
+.napkin h2{
+    font-size: 69.74px;
+    margin-top: 45px;
+    
+}
+.flex-3-right h5{
+    font-size: 48px;
+    font-family: Filson Soft;
+    font-weight: 700;
+    margin-top: 22px;
+}
+.flex-3-right p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 56px;
+}
+.flex-3-right a{
+    font-size: 16px;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #C15D26;
+   padding: 11.5px 53.44px;
+}
+.module-6{
+    background-image: url(./barbewue.png);
+    min-height:479px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.meat h4{
+    
+    font-size: 26px;
+    color: #F1F2F2;
+    
+    font-weight: 400;
+    
+}
+.meat h2{
+    font-family: 'Bello-pro';
+font-size: 58px;
+color:#C15D26;
+
+font-weight: 400;
+margin-bottom: 20px;
+}
+.meat p{
+    font-size: 18px;
+    color: #F1F2F2;
+    
+    font-weight: 400;
+    margin-bottom: 28px;
+    
+}
+.meat a{
+    display: inline-block;
+    font-size: 16px;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #C15D26;
+   padding: 11.5px 53.44px;
+}
+.meat{
+    max-width: 494px;
+position: absolute;
+top: 30%;
+left: 7.5%;
+left: 8%;
+}
